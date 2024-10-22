@@ -144,7 +144,7 @@ h6 {
   font-size: 18px;
   font-weight: 700;
   line-height: 23.45px;
-  color: #FFFFFF;
+  color: #303B59;
   margin-block: 24px;
 }
 
@@ -263,10 +263,9 @@ h6 {
   }
   
   .summary h2 {
-    font-size: 32px;
-    line-height: 41.7px;
-    margin-top: 28px;
-    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 31.27px;
+    margin-block: 28px;
   }
   
   .feature-title {
