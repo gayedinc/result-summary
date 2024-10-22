@@ -140,7 +140,7 @@ h6 {
   margin-bottom: 24px;
 }
 
-.summary h2 {
+.summary-inner h2 {
   font-size: 18px;
   font-weight: 700;
   line-height: 23.45px;
@@ -262,7 +262,7 @@ h6 {
     
   }
   
-  .summary h2 {
+  .summary-inner h2 {
     font-size: 24px;
     line-height: 31.27px;
     margin-block: 28px;
