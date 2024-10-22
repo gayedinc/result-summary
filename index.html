@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/result.summary.css">
+  <script src="assets/js/result.summary.js" defer></script>
+  <title>Result Summary Component</title>
+</head>
+  <div class="container">
+    <div class="container-inner">
+      
+      <div class="summary">
+        <div class="result">
+          <h1>Your Result</h1>
+          <div class="score">
+            <h4 id="resultText">76</h4>
+            <h5>of 100</h5>
+          </div>
+          <div class="result-content">
+            <h2>Great</h2>
+            <p>Your performance exceed 65% of the people conducting the test here!</p>
+          </div>
+        </div>
+        <div class="summary-inner">
+          <h2>Summary</h2>
+        <div class="summary-features">
+          <div id="reaction" class="reaction-feature">
+            <div class="feature-title">
+              <img src="assets/img/flash-icon.svg" alt="Flash Icon">
+              <h3>Reaction</h3>
+            </div>
+            <p><span id="reactionText" >0</span><span id="maxText" >/100</span></p>
+          </div>
+          <div id="memory" class="memory-feature">
+            <div class="feature-title">
+              <img src="assets/img/brain-icon.svg" alt="Brain Icon">
+              <h3>Memory</h3>
+            </div>
+            <p><span id="memoryText" >0</span><span id="maxText" >/100</span></p>
+          </div>
+          <div id="verbal" class="verbal-feature">
+            <div class="feature-title">
+              <img src="assets/img/remove-chat-icon.svg" alt="Remove Chat Icon">
+              <h3>Verbal</h3>
+            </div>
+            <p><span id="verbalText" >0</span><span id="maxText" >/100</span></p>
+          </div>
+          <div id="visual" class="visual-feature">
+            <div class="feature-title">
+              <img src="assets/img/eye-empty-icon.svg" alt="Eye Empty Icon">
+              <h3>Visual</h3>
+            </div>
+            <p><span id="visualText" >0</span><span id="maxText" >/100</span></p>
+          </div>
+        </div>
+        <div class="btn-area">
+          <button class="continue-btn">Continue</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
